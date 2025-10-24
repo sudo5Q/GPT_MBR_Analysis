@@ -73,7 +73,6 @@ if mbrOrGpt == 1:
     
     
     # ----------- { First Partition } ---------------------------
-    # some changes here
     
     intLBA = int(bytes[457:458].hex() + bytes[456:457].hex() + bytes[455:456].hex() + bytes[454:455].hex(), base=16)
     
